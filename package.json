@@ -1,0 +1,17 @@
+{
+  "name": "@talentui/external-components-post",
+  "version": "0.0.8",
+  "description": "",
+  "main": "bin/index.js",
+  "bin": {
+    "tlpost": "./bin/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "minimist": "^1.2.0",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.2"
+  }
+}
+

@@ -24,5 +24,14 @@ const argv = require('minimist')(process.argv.slice(2));
         'uiProjectName': name
       }
     })
+  
+    request.post({
+      'url': argv['request-url-cmp'],
+      'form': {
+        appId,
+        'versionName': version,
+        'uiProjectName': name
+      }
+    })
   })
 
